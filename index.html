@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up|Individual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="box left">
+            <img src="logo.svg" alt="Logo">
+            <h2>For Individuals</h2>
+            <p>Start benefiting from the wellness experience.
+                For  companies looking on increasing productivity, 
+                and improving  organization wellness.</p>
+        </div>
+        <div class="box right">
+            <form>
+
+                <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+                    <div style="flex: 1; margin-right: 10px;">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Tolu">
+                    </div>
+                    <div style="flex: 1; margin-right: 10px;">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="">
+                    </div>
+                    <div style="flex: 1; margin-right: 10px;">
+                        <label for="gender">Gender:</label>
+                        <select id="gender" name="gender">
+                            <option value="" disabled selected>Select here</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div style="flex: 1; margin-right: 10px;">
+                        <label for="date">Date of Birth:</label>
+                        <input type="date" id="dob" name="dob" placeholder="Select">
+                    </div>
+                    <div style="flex: 1; margin-right: 10px;">
+                        <label for="weight">Weight (kg):</label>
+                        <input type="text" id="weight" name="weight" placeholder="Enter your weight">
+                    </div>
+                    <div style="flex: 1;">
+                        <label for="height">Height (cm):</label>
+                        <input type="text" id="height" name="height" placeholder="Enter your height">
+                    </div>
+                </div>
+                <label for="activityLevel">Activity Level:</label>
+                <select id="activityLevel" name="activityLevel">
+                    <option value="" disabled selected>Select here</option>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+                <label for="password">Password:</label>
+                <div class="password-container">
+                    <input type="password" id="password" name="password" placeholder="">
+                </div>
+                <button type="submit">Register</button>
+                <p>By clicking Register , you agree to our <a href="#">Terms</a> and our &nbsp; <a href="#">Privacy Policy</a></p>
+                
+            </form>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+
